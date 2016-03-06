@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TheCollegeApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity__home">Activity_Home</string>
+
+    <string-array name="DigiDrawerList">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Shop</item>
+        <item>Life</item>
+        <item>Agenda</item>
+        <item>Messages</item>
+        <item>Info</item>
+        <item>Log Out</item>
+    </string-array>
+
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="title_activity_digi_profile__fragment">DigiProfile_Fragment</string>
+    <string name="ProfileSetupNote">You haven\'t set up your profile yet, click the button below to start</string>
+    <string name="ProfileSetupDescription">Profile information is dislayed here. You can set a picture, a name, your age, etc. People who view your profile will see this information. You can turn this feature off at any time in the settings.</string>
+    <string name="SkillsSetupNote">You haven\'t added any skills yet, click the button below to start. </string>
+    <string name="SkillsSetupDescription">Here you can list any of your professional skills and experience; Any information that you would like potential employers to view</string>
+    <string name="title_activity_new_digi_post">NewDigiPost</string>
+
+</resources>

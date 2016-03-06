@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/digi_loading" android:oneshot="false" >
+    <item android:drawable="@drawable/zdigi_loading1sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading2sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading3sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading4sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading5sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading6sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading7sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading8sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading9sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading10sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading11sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading12sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading13sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading14sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading15sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading16sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading17sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading18sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading19sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading20sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading21sm" android:duration="50" />
+    <item android:drawable="@drawable/zdigi_loading22sm" android:duration="50" />
+
+</animation-list>

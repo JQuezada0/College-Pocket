@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:CampusAgenda="http://schemas.android.com/apk/res-auto" >
+	<item android:id="@+id/AgendaSave"
+          android:icon="@drawable/save"
+          android:title="Save"
+          CampusAgenda:showAsAction="always"  />
+	<item android:id="@+id/AgendaGarbage"
+          android:icon="@drawable/garbage_can"
+          android:title="Garbage"
+          CampusAgenda:showAsAction="always"  />
+</menu>

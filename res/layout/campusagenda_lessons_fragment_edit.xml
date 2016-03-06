@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/EditLessonTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:text="Lesson Name" />
+
+    <EditText
+        android:id="@+id/EditLessonTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Name"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/EditLessonRoomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:text="Room" />
+
+    <EditText
+        android:id="@+id/EditLessonRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Room"
+        android:padding="5dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/EditLessonTeacherText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:text="Teacher" />
+
+    <EditText
+        android:id="@+id/EditLessonTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Teacher"
+        android:padding="5dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/EditLessonWeekday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/abc_spinner_ab_default_holo_light"
+        android:text="Weekday" />
+
+    <TableRow
+        android:id="@+id/EditLessonTimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/EditLessonTimeFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/abc_spinner_ab_default_holo_light"
+            android:text="From" />
+
+        <TextView
+            android:id="@+id/EditLessonTimeUntil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/abc_spinner_ab_default_holo_light"
+            android:text="Until" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/EditLessonDates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/EditLessonDateStartingOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/abc_spinner_ab_default_holo_light"
+            android:text="Starting On" />
+
+        <TextView
+            android:id="@+id/EditLessonDateEndingOn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/abc_spinner_ab_default_holo_light"
+            android:text="Ending On" />
+
+    </TableRow>
+
+</LinearLayout>

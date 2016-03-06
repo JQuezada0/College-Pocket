@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/DigiMessengerOtherUserRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp" >
+        
+      <ImageView
+        android:id="@+id/DigiMessengerOtherUserImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/usericon_hdpi" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/campusmessenger_message_recipient" >
+       
+         <TextView
+        android:id="@+id/DigiMessengerOtherUserTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_vertical"
+        android:text="TextView" />
+            
+        </TableRow>
+
+    </TableRow>

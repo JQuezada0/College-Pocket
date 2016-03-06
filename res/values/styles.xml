@@ -1,0 +1,56 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+        <item name="android:windowBackground">@color/WindowBackgroundColor</item>
+        <item name="actionBarTabStyle">@style/MyActionBarTabs</item>
+        <item name="actionBarTabTextStyle">@style/ActionBarTabText</item>
+       
+    </style>
+    
+  
+    <style name="DialogFragmentStyle">
+        <item name="background">@color/White</item>
+    </style>
+    
+    <style name="CustomActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/actionbar</item>
+        <item name="background">@drawable/actionbar</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="titleTextStyle">@style/CustomActionBarText</item>
+        <item name="android:textStyle">@style/CustomActionBarText</item>
+
+    </style>
+    <style name="MyActionBarTabs">
+        
+    </style>
+    <style name="ActionBarTabText">
+        <item name="android:textColor">@color/CampusBlue</item>
+    </style>
+    
+    <style name="CustomActionBarText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ActionBarTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomDialogStyle" parent="@style/Theme.AppCompat.Base.CompactMenu.Dialog">
+        <item name="android:background">@color/WindowBackgroundColor</item>
+        <item name="android:windowTitleStyle">@style/CustomDialogTitleStyle</item>
+    </style>
+    <style name="CustomDialogTitleStyle" parent="@android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:background">@drawable/actionbar</item>
+    </style>
+    <style name="CustomProgressBar" parent="@android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+          <item name="android:progressDrawable">@drawable/digi_loading</item>
+    </style>
+
+</resources>

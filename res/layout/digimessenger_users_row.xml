@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/usericon_hdpi" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+         <TextView
+        android:id="@+id/DigiMessenger_Users_UserTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="TextView" />
+
+         <TextView
+             android:id="@+id/DigiMessengerLastMessage"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="12sp"
+    		 android:layout_marginLeft="10dp"
+    		 android:layout_marginTop="7dp"
+    		 android:ellipsize="end"
+			 android:maxLines="1"
+             android:text="TextView" />
+         
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/DigiMessengerUsersTimeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginRight="12dp"
+    	android:gravity="right"
+        android:text="TextView" />
+
+</TableRow>

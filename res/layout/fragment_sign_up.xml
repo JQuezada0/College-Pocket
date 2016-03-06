@@ -1,0 +1,136 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SignUpFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Campus.BulletinBoard.CreateAccount"
+ 	tools:ignore="MergeRootFrame"
+ 	android:background="@color/WindowBackgroundColor">
+ 	
+     <ProgressBar
+         android:id="@+id/SignUpLoading"
+         android:layout_width="200dp"
+         android:layout_height="128dp"
+         android:layout_gravity="center"
+         android:visibility="gone"
+         style="@style/CustomProgressBar"
+         android:layout_marginTop="14dp" />
+    
+<RelativeLayout
+    android:id="@+id/SignUpContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ProgressBar
+         android:id="@+id/SignUpProgressBar"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:visibility="gone" />
+
+     <LinearLayout
+         android:id="@+id/DigiQlikSignUpForm"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:orientation="vertical" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical" >
+
+             <TableRow
+                 android:id="@+id/tableRow1"
+                 android:layout_width="300dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:background="@drawable/actionbar"
+                 android:gravity="center" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="DigiQlik"
+                     android:textColor="#FFFFFF"
+                     android:textSize="25sp"
+                     android:textStyle="bold|italic" />
+             </TableRow>
+
+             <LinearLayout
+                 android:layout_width="300dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:background="#BFBFBF"
+                 android:orientation="vertical"
+                 android:padding="10dp" >
+
+                 <EditText
+                     android:id="@+id/SignUpUsernameET"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:ems="10" 
+                     android:hint="Username">
+
+                     <requestFocus />
+                 </EditText>
+
+                 <EditText
+                     android:id="@+id/SignUpPasswordET"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:ems="10"
+                     android:hint="Password"
+                     android:inputType="textPassword" />
+
+                 <EditText
+                     android:id="@+id/SignUpConfirmPasswordET"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:ems="10"
+                     android:hint="Confirm Password"
+                     android:inputType="textPassword" />
+
+                 <EditText
+                     android:id="@+id/SignUpEmailET"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:ems="10"
+                     android:hint="Academic Email"
+                     android:inputType="textEmailAddress" />
+                 
+                 <EditText
+                     android:id="@+id/SignUpConfirmEmailET"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:ems="10"
+                     android:hint="Confirm Academic Email"
+                     android:inputType="textEmailAddress" />
+
+                 <Button
+                     android:id="@+id/SignUpSelectSchoolBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Set School" />
+
+                 <Button
+                     android:id="@+id/DigiQlikInitFormSignUpBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:gravity="center"
+                     android:textSize="20sp"
+                     android:padding="5dp"
+                     android:background="@drawable/signup_selector"
+                     android:text="Submit" />
+             </LinearLayout>
+         </LinearLayout>
+     </LinearLayout>
+
+    
+</RelativeLayout>
+</FrameLayout>
+

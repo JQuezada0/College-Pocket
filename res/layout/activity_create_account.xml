@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+     <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/homescreen_hdpi" />
+     
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/StartScreenContainer" >
+     
+     <TextView
+        android:id="@+id/DigiQlikLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="DigiQlik" />
+     
+    
+    
+        	<TableRow
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginBottom="58dp"
+        	    android:layout_gravity="center"
+        	    android:layout_marginLeft="85dp"
+        	    android:layout_marginRight="85dp"
+        	    android:background="@drawable/inputbox_hdpi" >
+
+        		<ImageView
+        		    android:id="@+id/imageView1"
+        		    android:layout_width="36dp"
+        		    android:layout_height="27dp"
+        		    android:layout_gravity="center"
+        		    android:padding="2dp"
+        		    android:scaleType="fitXY"
+        		    android:src="@drawable/usericon_hdpi" />
+    
+                 <EditText
+                     android:id="@+id/LogInUsernameET"
+                     android:layout_width="match_parent"
+                     android:layout_height="30dp"
+                     android:gravity="bottom"
+                     android:layout_gravity="center"
+                     android:textSize="12sp"
+                     android:ems="10"
+                     android:hint="Username" >
+                     <requestFocus />
+                     </EditText>
+                 
+                 </TableRow>
+
+        	<TableRow
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_gravity="center"
+        	    android:layout_marginBottom="10dp"
+        	    android:layout_marginLeft="85dp"
+        	    android:layout_marginRight="85dp"
+        	    android:background="@drawable/inputbox_hdpi" >
+                 
+        	    <ImageView
+        		    android:id="@+id/imageView1"
+        		    android:layout_width="36dp"
+        		    android:layout_height="27dp"
+        		    android:layout_gravity="center"
+        		    android:scaleType="fitXY"
+        		    android:padding="2dp"
+        		    android:src="@drawable/passwordicon_hdpi" />
+    
+                 <EditText
+                     android:id="@+id/LogInPasswordET"
+                     android:layout_width="match_parent"
+                     android:layout_height="30dp"
+                     android:textSize="12sp"
+                     android:ems="10"
+                     android:layout_gravity="center"
+                     android:hint="Password"
+                     android:inputType="textPassword" />
+                 
+                 </TableRow>
+
+                 <Button
+                     android:id="@+id/DigiQlikInitFormLogInBtn"
+                     android:layout_width="228dp"
+                     android:layout_height="112dp"
+                     android:paddingTop="18dp"
+                     android:layout_marginTop="82dp"
+                     android:layout_gravity="center"
+                     android:background="@drawable/login_selector"
+                     android:scaleType="fitXY"
+                     android:textColor="#FFFFFF"
+                     android:text="Log-In"
+                     android:textSize="20sp" />
+
+                 <Button
+                     android:id="@+id/DigiQlikInitFormSignUpBtn"
+                     android:layout_width="250dp"
+                     android:layout_marginTop="170dp"
+                     android:layout_gravity="center"
+                     android:layout_height="35dp"
+                     android:background="@drawable/signup_selector"
+                     android:text="Sign-Up"
+                     android:textColor="#FFFFFF"
+                     android:textSize="20sp" />
+
+                 <ProgressBar
+                     android:id="@+id/DigiSignUpProgress"
+                     style="?android:attr/progressBarStyleLarge"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:visibility="gone"
+                     android:layout_gravity="center" />
+                 </FrameLayout>
+
+</FrameLayout>
+

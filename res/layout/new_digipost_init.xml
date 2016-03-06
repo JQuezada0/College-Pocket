@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/abc_menu_dropdown_panel_holo_dark"
+    android:orientation="vertical" >
+
+             <TableRow
+                 android:id="@+id/tableRow1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:background="@drawable/actionbar"
+                 android:gravity="center" >
+
+                 <TextView
+                     android:id="@+id/textView1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="New DigiPost"
+                     android:textColor="#FFFFFF"
+                     android:textSize="25sp"
+                     android:textStyle="bold|italic" />
+             </TableRow>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"  
+                 android:orientation="vertical"
+                 android:padding="10dp">
+                 
+                 <TableRow
+                     android:id="@+id/NewDigiPostSellStuffTR"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="2dp"
+                     android:background="@drawable/new_digipost_btn_selector">
+                     
+                      <Button
+                     android:id="@+id/NewDigiPostSellStuffBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="left|center_vertical"
+                     android:textColor="#00aad4"
+                     android:textSize="20sp"
+                     android:paddingLeft="100dp"
+                     android:textStyle="bold"
+                     android:layout_weight="1"
+                     android:background="#00000000"
+                     android:text="Sell Stuff" />
+
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/digipost_btn_line"/>
+                 
+                 <ImageView 
+                     android:layout_width="100dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/sellicon"/>
+                 
+                 </TableRow>
+                 
+                 <TableRow
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/NewDigiPostWantStuffTR"
+                     android:layout_marginBottom="2dp"
+                     android:background="@drawable/new_digipost_btn_selector">
+                 
+                 <Button
+                     android:id="@+id/NewDigiPostWantStuffBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:background="#00000000"
+                     android:textStyle="bold"
+                     android:textColor="#00aad4"
+                     android:gravity="left|center_vertical"
+                     android:layout_weight="1"
+                     android:paddingLeft="100dp"
+                     android:textSize="20sp"
+                     android:text="Want Stuff" />
+                 
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/digipost_btn_line"/>
+                 
+                 <ImageView 
+                     android:layout_width="100dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/sellicon"/>
+                 
+                 
+                 </TableRow>
+                 
+                 <TableRow
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/NewDigiPostEventTR"
+                     android:layout_marginBottom="2dp"
+                     android:background="@drawable/new_digipost_btn_selector">
+                 
+                 <Button
+                     android:id="@+id/NewDigiPostEventBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_weight="1"
+                     android:textStyle="bold"
+                     android:textColor="#00aad4"
+                     android:gravity="left|center_vertical"
+                     android:paddingLeft="100dp"
+                     android:textSize="20sp"
+                     android:background="#00000000"
+                     android:text="Event" />
+                 
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/digipost_btn_line"/>
+                 
+                 <ImageView 
+                     android:layout_width="100dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/sellicon"/>
+                 
+                 
+                 </TableRow>
+                 
+                 <TableRow
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/NewDigiPostHousingTR"
+                     android:layout_marginBottom="2dp"
+                     android:background="@drawable/new_digipost_btn_selector">
+                 <Button
+                     android:id="@+id/NewDigiPostHousingBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_weight="1"
+                     android:textColor="#00aad4"
+                     android:textStyle="bold"
+                     android:paddingLeft="100dp"
+                     android:gravity="left|center_vertical"
+                     android:textSize="20sp"
+                     android:background="#00000000"
+                     android:text="Housing" />
+                 
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/digipost_btn_line"/>
+                 
+                 <ImageView 
+                     android:layout_width="100dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/sellicon"/>
+                 
+                 </TableRow>
+                 <TableRow
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/NewDigiPostTutoringTR"
+                     android:layout_marginBottom="2dp"
+                     android:background="@drawable/new_digipost_btn_selector">
+                 <Button
+                     android:id="@+id/NewDigiPostTutoringBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:paddingLeft="100dp"
+                     android:textColor="#00aad4"
+                     android:textStyle="bold"
+                     android:gravity="left|center_vertical"
+                     android:layout_weight="1"
+                     android:textSize="20sp"
+                     android:background="#00000000"
+                     android:text="Tutoring" />
+                 
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/digipost_btn_line"/>
+                 
+                 <ImageView 
+                     android:layout_width="100dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/sellicon"/>
+                 
+                 </TableRow>
+                 <TableRow
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/NewDigiPostOddJobsTR"
+                     android:layout_marginBottom="2dp"
+                     android:background="@drawable/new_digipost_btn_selector">
+                 <Button
+                     android:id="@+id/NewDigiPostOddJobsBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:paddingLeft="100dp"
+                     android:textColor="#00aad4"
+                     android:textStyle="bold"
+                     android:layout_gravity="center"
+                     android:gravity="left|center_vertical"
+                     android:textSize="20sp"
+                     android:layout_weight="1"
+                     android:background="#00000000"
+                     android:text="Odd Job" />
+                 
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/digipost_btn_line"/>
+                 
+                 <ImageView 
+                     android:layout_width="100dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/sellicon"/>
+                 
+                 </TableRow>
+                 <TableRow
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/NewDigiPostCarPoolingTR"
+                     android:layout_marginBottom="2dp"
+                     android:background="@drawable/new_digipost_btn_selector">
+                 <Button
+                     android:id="@+id/NewDigiPostCarPoolingBtn"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:textSize="20sp"
+                     android:textColor="#00aad4"
+                     android:textStyle="bold"
+                     android:paddingLeft="100dp"
+                     android:gravity="left|center_vertical"
+                     android:layout_weight="1"
+                     android:background="#00000000"
+                     android:text="Car Pooling" />
+                 
+                 <ImageView
+                     android:id="@+id/imageView1"
+                     android:layout_width="1dp"
+                     android:layout_height="match_parent"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="5dp"
+                     android:scaleType="fitXY"
+                     android:src="@drawable/digipost_btn_line"/>
+                 
+                 <ImageView 
+                     android:layout_width="100dp"
+                     android:paddingLeft="10dp"
+                     android:paddingRight="10dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1"
+                     android:src="@drawable/sellicon"/>
+                 </TableRow>
+                 
+                 
+             </LinearLayout>
+</LinearLayout>
